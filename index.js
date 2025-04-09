@@ -1,6 +1,10 @@
-function soma(n1,n2){
-    let soma = n1 + n2;
-    console.log(soma);
-}
+function quest(){
+    function pergunta2(){
+        question.textContent
+    }
+    let question = document.getElementById('question');
 
-soma(3,2);
+    question.textContent = "pergunta 1";
+
+    document.getElementById('butt').addEventListener('click',pergunta2())
+}
